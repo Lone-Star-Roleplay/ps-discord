@@ -6,21 +6,16 @@ local Card = {}
 ]]
 local imageUrl = nil
 
-local title = "Project Sloth - Discord Queue"
+local title = "Lone Star Roleplay Queue"
 
 local text = [[
-Our server is very good, check our Discord for more!
-Remember to read the rules!
+⭐ Thanks for joining Lone Star Roleplay! ⭐
+Please make sure to read the rules!
 ]]
 
 local buttonOne = {
-    title = "Docs",
-    url = "https://docs.projectsloth.org/ps/"
-}
-
-local buttonTwo = {
     title = "Discord",
-    url = "https://discord.gg/projectsloth"
+    url = "https://discord.gg/Hgrqu2jaGq"
 }
 
 function Card:Build(queueNumber, totalInQueue)
